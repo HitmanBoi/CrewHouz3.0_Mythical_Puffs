@@ -81,12 +81,13 @@ const App = () => {
       </span>
       <br />
       <br />
+      <br />
       <h1>Whatt ? You pulled something mythical while smoking cigarettes?</h1>
 
 
       {state.principal && (                   
         <div>
-          <h2>Your principal ID is:</h2>
+          <h3>Your principal ID is:</h3>
           
           <h4>{state.principal} <br /> <br /> 
           <Button onClick={whoami}>Show Address</Button>
